@@ -1,0 +1,18 @@
+{"input": "Môn NLP có bao nhiêu tín chỉ?", "answer": "Kết quả: 3. Nguồn: course_info:CO3085", "error": null}
+{"input": "Tuần 3 học gì?", "answer": "Kết quả: Stanford dependencies; bottom-up chart parsing; context-free grammar; dependency grammar; grammar and sentence structure; probabilistic context-free grammar; top-down chart parsing; top-down parsing. Nguồn: schedule:WEEK_03", "error": null}
+{"input": "Chương nào nói về CFG?", "answer": "Kết quả: CH03. Nguồn: topics:CH03", "error": null}
+{"input": "Chương nào nói về CFG và PCFG?", "answer": "Kết quả: CH03. Nguồn: topics:CH03", "error": null}
+{"input": "Chương 3 có CFG không?", "answer": "Có. Nguồn: topics:CH03", "error": null}
+{"input": "Mỗi chương nói về CFG học tuần nào?", "answer": "Kết quả: CH03: WEEK_03. Nguồn: schedule:WEEK_03, topics:CH03", "error": null}
+{"input": "Mọi chương nói về CFG đều học tuần 3 không?", "answer": "Có, với các chương thuộc phạm vi tìm được trong KB. Nguồn: schedule:WEEK_03, topics:CH03", "error": null}
+{"input": "Chương duy nhất nói về CFG học tuần nào?", "answer": "Kết quả: WEEK_03. Nguồn: schedule:WEEK_03, topics:CH03", "error": null}
+{"input": "Chương duy nhất nói về PCFG học tuần nào?", "answer": "Có nhiều chương phù hợp trong KB, chưa xác định được chương duy nhất.", "error": null}
+{"input": "CFG học tuần nào?", "answer": "Kết quả: WEEK_03. Nguồn: schedule:WEEK_03, topics:CH03", "error": null}
+{"input": "Bài tập lớn có những yêu cầu gì?", "answer": "Kết quả: answer generation; entity extraction; intent identification; phân tích lỗi; query to knowledge base; semantic representation; sinh câu hợp lệ từ grammar; trình bày các trường hợp hệ thống không trả lời đúng; tạo test set; xuất parse tree; xây dựng grammar cho miền Course Assistant; xây dựng parser; xử lý câu hỏi ngoài miền; xử lý câu không hợp lệ; xử lý trường hợp không tìm thấy thông tin; đo accuracy hoặc metric phù hợp. Nguồn: assignments:BTL_PART_1, assignments:BTL_PART_2, assignments:BTL_PART_4", "error": null}
+{"input": "Deadline của bài tập lớn là khi nào?", "answer": "Không tìm thấy kết quả trong dữ liệu thử nghiệm.", "error": null}
+{"input": "Tài liệu tham khảo về statistical NLP là gì?", "answer": "Tài liệu tìm được có nội dung liên quan đến chủ đề theo chú giải (chưa khẳng định đầy đủ): Foundation of Statistical Natural Language Processing; Introduction to Natural Language Processing. Nguồn: annotation:resource_topics:RES02, annotation:resource_topics:RES04, resources:RES02, resources:RES04", "error": null}
+{"input": "Tài liệu nào nói về CFG?", "answer": "Tài liệu tìm được có nội dung liên quan đến chủ đề theo chú giải (chưa khẳng định đầy đủ): Natural Language Processing with Python. Nguồn: annotation:slide_relations:RES05_CFG, resources:RES05", "error": null}
+{"input": "Tài liệu của chương 3 là gì?", "answer": "Tài liệu liên quan theo chủ đề: Natural Language Processing with Python. Đây không phải danh sách tài liệu giảng viên chỉ định. Nguồn: annotation:slide_relations:RES05_CFG, resources:RES05, topics:CH03", "error": null}
+{"input": "L.O.4.2 liên quan đến nội dung nào?", "answer": "Chương liên quan theo đối chiếu thử nghiệm: CH12. Nguồn: annotation:slide_relations:LO4.2_CH12, course_info:CO3085, topics:CH12", "error": null}
+{"input": "Quy định về sử dụng AI là gì?", "answer": "Kết quả: Sinh viên phải khai báo việc sử dụng AI trong báo cáo, nghiên cứu và quá trình thực hiện theo quy định của môn học.. Nguồn: regulations:AI_USAGE", "error": null}
+{"input": "Hôm nay ở TP.HCM có mưa không?", "answer": "Câu hỏi có từ ngoài phạm vi văn phạm.", "error": "Câu hỏi có từ ngoài phạm vi văn phạm."}

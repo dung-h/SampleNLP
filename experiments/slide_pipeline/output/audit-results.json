@@ -1,0 +1,549 @@
+{
+  "total": 12,
+  "passed": 12,
+  "failed": 0,
+  "pass_rate": 1.0,
+  "cases": [
+    {
+      "id": "A01",
+      "turns": [
+        "Môn NLP có mấy phần?"
+      ],
+      "passed": true,
+      "checks": {
+        "intent": true,
+        "status": true,
+        "values_exact": true,
+        "answer:3 phần": true,
+        "sources_present": true,
+        "values_in_answer": true
+      },
+      "actual": {
+        "input": "Môn NLP có mấy phần?",
+        "tree": "(S (COURSE_PARTS (COURSE môn nlp) có mấy phần))",
+        "logical_form": "COUNT ?part: COURSE_PART(CO3085, ?part)",
+        "semantic_composition": [],
+        "resolved_logical_form": "COUNT ?part: COURSE_PART(CO3085, ?part)",
+        "intent_entity": {
+          "intent": "GET_COURSE_INFO",
+          "entities": {
+            "course": [
+              "CO3085"
+            ]
+          }
+        },
+        "query_form": "COUNT ?part WHERE COURSE_PART(CO3085, ?part)",
+        "retrieval": {
+          "status": "FOUND",
+          "values": [
+            "3"
+          ],
+          "sources": [
+            "course_info:CO3085"
+          ]
+        },
+        "answer": "Môn học có 3 phần. Nguồn: course_info:CO3085",
+        "context": {
+          "chapter": null,
+          "assignment_part": null,
+          "focus": "course"
+        }
+      },
+      "basis": "course_info.txt: main_parts gồm ba phần",
+      "failure_analysis": null
+    },
+    {
+      "id": "A02",
+      "turns": [
+        "CFG được học ở đâu?",
+        "Chương này nói về gì?"
+      ],
+      "passed": true,
+      "checks": {
+        "intent": true,
+        "status": true,
+        "entity:chapter": true,
+        "source:topics:CH03": true,
+        "sources_present": true,
+        "values_in_answer": true
+      },
+      "actual": {
+        "input": "Chương này nói về gì?",
+        "tree": "(S (CHAPTER_TOPICS (CHAPTER_REF chương này) nói về gì))",
+        "logical_form": "WH ?content: CHAPTER_SUMMARY(REF(chapter), ?content)",
+        "semantic_composition": [],
+        "resolved_logical_form": "WH ?content: CHAPTER_SUMMARY(CH03, ?content)",
+        "intent_entity": {
+          "intent": "GET_TOPIC",
+          "entities": {
+            "chapter": [
+              "CH03"
+            ]
+          }
+        },
+        "query_form": "RETRIEVE ?content WHERE CHAPTER_SUMMARY(CH03, ?content)",
+        "retrieval": {
+          "status": "FOUND",
+          "values": [
+            "The chapter introduces context-free grammar, sentence structure and parsing methods. It also introduces probabilistic CFG and dependency grammar."
+          ],
+          "sources": [
+            "topics:CH03"
+          ]
+        },
+        "answer": "Kết quả: The chapter introduces context-free grammar, sentence structure and parsing methods. It also introduces probabilistic CFG and dependency grammar.. Nguồn: topics:CH03",
+        "context": {
+          "chapter": "CH03",
+          "assignment_part": null,
+          "focus": "chapter"
+        }
+      },
+      "basis": "topics.txt: CFG thuộc CH03; lượt tiếp theo tham chiếu chương",
+      "failure_analysis": null
+    },
+    {
+      "id": "A03",
+      "turns": [
+        "Bài tập lớn có những yêu cầu gì?"
+      ],
+      "passed": true,
+      "checks": {
+        "intent": true,
+        "status": true,
+        "value:xây dựng parser": true,
+        "absent:lưu discourse entities đơn giản": true,
+        "sources_present": true,
+        "values_in_answer": true
+      },
+      "actual": {
+        "input": "Bài tập lớn có những yêu cầu gì?",
+        "tree": "(S (ASSIGNMENT_REQUIREMENTS (ASSIGNMENT bài tập lớn) có những yêu cầu gì))",
+        "logical_form": "WH ?requirement: ASSIGNMENT_REQUIREMENT(BTL01, ?requirement)",
+        "semantic_composition": [],
+        "resolved_logical_form": "WH ?requirement: ASSIGNMENT_REQUIREMENT(BTL01, ?requirement)",
+        "intent_entity": {
+          "intent": "GET_ASSIGNMENT",
+          "entities": {
+            "assignment": [
+              "BTL01"
+            ]
+          }
+        },
+        "query_form": "RETRIEVE ?requirement WHERE ASSIGNMENT_REQUIREMENT(BTL01, ?requirement)",
+        "retrieval": {
+          "status": "FOUND",
+          "values": [
+            "answer generation",
+            "entity extraction",
+            "intent identification",
+            "phân tích lỗi",
+            "query to knowledge base",
+            "semantic representation",
+            "sinh câu hợp lệ từ grammar",
+            "trình bày các trường hợp hệ thống không trả lời đúng",
+            "tạo test set",
+            "xuất parse tree",
+            "xây dựng grammar cho miền Course Assistant",
+            "xây dựng parser",
+            "xử lý câu hỏi ngoài miền",
+            "xử lý câu không hợp lệ",
+            "xử lý trường hợp không tìm thấy thông tin",
+            "đo accuracy hoặc metric phù hợp"
+          ],
+          "sources": [
+            "assignments:BTL_PART_1",
+            "assignments:BTL_PART_2",
+            "assignments:BTL_PART_4"
+          ]
+        },
+        "answer": "Kết quả: answer generation; entity extraction; intent identification; phân tích lỗi; query to knowledge base; semantic representation; sinh câu hợp lệ từ grammar; trình bày các trường hợp hệ thống không trả lời đúng; tạo test set; xuất parse tree; xây dựng grammar cho miền Course Assistant; xây dựng parser; xử lý câu hỏi ngoài miền; xử lý câu không hợp lệ; xử lý trường hợp không tìm thấy thông tin; đo accuracy hoặc metric phù hợp. Nguồn: assignments:BTL_PART_1, assignments:BTL_PART_2, assignments:BTL_PART_4",
+        "context": {
+          "chapter": null,
+          "assignment_part": null,
+          "focus": null
+        }
+      },
+      "basis": "assignments.txt: PART I requirements; PART III optional_or_extension",
+      "failure_analysis": null
+    },
+    {
+      "id": "A04",
+      "turns": [
+        "Tôi cần hoàn thành những bài tập nào?"
+      ],
+      "passed": true,
+      "checks": {
+        "intent": true,
+        "status": true,
+        "values_exact": true,
+        "no_unsupported_values": true
+      },
+      "actual": {
+        "input": "Tôi cần hoàn thành những bài tập nào?",
+        "tree": "(S (ASSIGNMENT_LIST tôi cần hoàn thành những bài tập nào))",
+        "logical_form": "WH ?assignment: ASSIGNMENT_INVENTORY(CO3085, ?assignment)",
+        "semantic_composition": [],
+        "resolved_logical_form": "WH ?assignment: ASSIGNMENT_INVENTORY(CO3085, ?assignment)",
+        "intent_entity": {
+          "intent": "GET_ASSIGNMENT",
+          "entities": {}
+        },
+        "query_form": "RETRIEVE ?assignment WHERE ASSIGNMENT_INVENTORY(CO3085, ?assignment)",
+        "retrieval": {
+          "status": "NOT_FOUND",
+          "values": [],
+          "sources": []
+        },
+        "answer": "Không tìm thấy kết quả trong dữ liệu thử nghiệm.",
+        "context": {
+          "chapter": null,
+          "assignment_part": null,
+          "focus": null
+        }
+      },
+      "basis": "Chưa có danh mục đầy đủ tất cả bài tập cần hoàn thành",
+      "failure_analysis": null
+    },
+    {
+      "id": "A05",
+      "turns": [
+        "Deadline bài tập lớn khi nào?"
+      ],
+      "passed": true,
+      "checks": {
+        "intent": true,
+        "status": true,
+        "values_exact": true,
+        "no_unsupported_values": true
+      },
+      "actual": {
+        "input": "Deadline bài tập lớn khi nào?",
+        "tree": "(S (DEADLINE deadline (ASSIGNMENT bài tập lớn) khi nào))",
+        "logical_form": "WH ?date: ASSIGNMENT_DEADLINE(BTL01, ?date)",
+        "semantic_composition": [],
+        "resolved_logical_form": "WH ?date: ASSIGNMENT_DEADLINE(BTL01, ?date)",
+        "intent_entity": {
+          "intent": "GET_DEADLINE",
+          "entities": {
+            "assignment": [
+              "BTL01"
+            ]
+          }
+        },
+        "query_form": "RETRIEVE ?date WHERE ASSIGNMENT_DEADLINE(BTL01, ?date)",
+        "retrieval": {
+          "status": "NOT_FOUND",
+          "values": [],
+          "sources": []
+        },
+        "answer": "Không tìm thấy kết quả trong dữ liệu thử nghiệm.",
+        "context": {
+          "chapter": null,
+          "assignment_part": null,
+          "focus": null
+        }
+      },
+      "basis": "Không có ngày nộp BTL cụ thể trong dữ liệu mẫu",
+      "failure_analysis": null
+    },
+    {
+      "id": "A06",
+      "turns": [
+        "Môn học có bao nhiêu tín chỉ?"
+      ],
+      "passed": true,
+      "checks": {
+        "intent": true,
+        "status": true,
+        "values_exact": true,
+        "sources_present": true,
+        "values_in_answer": true
+      },
+      "actual": {
+        "input": "Môn học có bao nhiêu tín chỉ?",
+        "tree": "(S (COURSE_ATTRIBUTE (COURSE môn học) có (CREDIT_CUE bao nhiêu tín chỉ)))",
+        "logical_form": "WH ?value: COURSE_PROPERTY(CO3085, credits, ?value)",
+        "semantic_composition": [],
+        "resolved_logical_form": "WH ?value: COURSE_PROPERTY(CO3085, credits, ?value)",
+        "intent_entity": {
+          "intent": "GET_COURSE_INFO",
+          "entities": {
+            "course": [
+              "CO3085"
+            ]
+          }
+        },
+        "query_form": "RETRIEVE ?value WHERE COURSE_PROPERTY(CO3085, credits, ?value)",
+        "retrieval": {
+          "status": "FOUND",
+          "values": [
+            "3"
+          ],
+          "sources": [
+            "course_info:CO3085"
+          ]
+        },
+        "answer": "Kết quả: 3. Nguồn: course_info:CO3085",
+        "context": {
+          "chapter": null,
+          "assignment_part": null,
+          "focus": "course"
+        }
+      },
+      "basis": "course_info.txt: credits",
+      "failure_analysis": null
+    },
+    {
+      "id": "A07",
+      "turns": [
+        "Học phần có bao nhiêu tín chỉ?"
+      ],
+      "passed": true,
+      "checks": {
+        "intent": true,
+        "status": true,
+        "values_exact": true,
+        "sources_present": true,
+        "values_in_answer": true
+      },
+      "actual": {
+        "input": "Học phần có bao nhiêu tín chỉ?",
+        "tree": "(S (COURSE_ATTRIBUTE (COURSE học phần) có (CREDIT_CUE bao nhiêu tín chỉ)))",
+        "logical_form": "WH ?value: COURSE_PROPERTY(CO3085, credits, ?value)",
+        "semantic_composition": [],
+        "resolved_logical_form": "WH ?value: COURSE_PROPERTY(CO3085, credits, ?value)",
+        "intent_entity": {
+          "intent": "GET_COURSE_INFO",
+          "entities": {
+            "course": [
+              "CO3085"
+            ]
+          }
+        },
+        "query_form": "RETRIEVE ?value WHERE COURSE_PROPERTY(CO3085, credits, ?value)",
+        "retrieval": {
+          "status": "FOUND",
+          "values": [
+            "3"
+          ],
+          "sources": [
+            "course_info:CO3085"
+          ]
+        },
+        "answer": "Kết quả: 3. Nguồn: course_info:CO3085",
+        "context": {
+          "chapter": null,
+          "assignment_part": null,
+          "focus": "course"
+        }
+      },
+      "basis": "course_info.txt: credits; cách diễn đạt khác",
+      "failure_analysis": null
+    },
+    {
+      "id": "A08",
+      "turns": [
+        "Chương nào nói về PCFG?",
+        "Chương này nói về gì?"
+      ],
+      "passed": true,
+      "checks": {
+        "intent": true,
+        "status": true
+      },
+      "actual": {
+        "input": "Chương này nói về gì?",
+        "tree": "(S (CHAPTER_TOPICS (CHAPTER_REF chương này) nói về gì))",
+        "logical_form": "WH ?content: CHAPTER_SUMMARY(REF(chapter), ?content)",
+        "semantic_composition": [],
+        "error": "Chưa xác định được đối tượng đang được nhắc đến.",
+        "answer": "Chưa xác định được đối tượng đang được nhắc đến.",
+        "intent_entity": {
+          "intent": "UNKNOWN",
+          "entities": {}
+        },
+        "context": {
+          "chapter": null,
+          "assignment_part": null,
+          "focus": null
+        }
+      },
+      "basis": "PCFG có nhiều chương; không tự chọn tham chiếu",
+      "failure_analysis": null
+    },
+    {
+      "id": "A09",
+      "turns": [
+        "Paris nằm ở đâu?"
+      ],
+      "passed": true,
+      "checks": {
+        "intent": true,
+        "status": true
+      },
+      "actual": {
+        "input": "Paris nằm ở đâu?",
+        "error": "Câu hỏi có từ ngoài phạm vi văn phạm.",
+        "answer": "Câu hỏi có từ ngoài phạm vi văn phạm.",
+        "intent_entity": {
+          "intent": "UNKNOWN",
+          "entities": {}
+        },
+        "context": {
+          "chapter": null,
+          "assignment_part": null,
+          "focus": null
+        }
+      },
+      "basis": "Câu hỏi ngoài miền môn học",
+      "failure_analysis": null
+    },
+    {
+      "id": "A10",
+      "turns": [
+        "Môn NLP có tổng cộng bao nhiêu tín chỉ?"
+      ],
+      "passed": true,
+      "checks": {
+        "intent": true,
+        "status": true,
+        "values_exact": true,
+        "sources_present": true,
+        "values_in_answer": true
+      },
+      "actual": {
+        "input": "Môn NLP có tổng cộng bao nhiêu tín chỉ?",
+        "tree": "(S (COURSE_ATTRIBUTE (COURSE môn nlp) có tổng cộng (CREDIT_CUE bao nhiêu tín chỉ)))",
+        "logical_form": "WH ?value: COURSE_PROPERTY(CO3085, credits, ?value)",
+        "semantic_composition": [],
+        "resolved_logical_form": "WH ?value: COURSE_PROPERTY(CO3085, credits, ?value)",
+        "intent_entity": {
+          "intent": "GET_COURSE_INFO",
+          "entities": {
+            "course": [
+              "CO3085"
+            ]
+          }
+        },
+        "query_form": "RETRIEVE ?value WHERE COURSE_PROPERTY(CO3085, credits, ?value)",
+        "retrieval": {
+          "status": "FOUND",
+          "values": [
+            "3"
+          ],
+          "sources": [
+            "course_info:CO3085"
+          ]
+        },
+        "answer": "Kết quả: 3. Nguồn: course_info:CO3085",
+        "context": {
+          "chapter": null,
+          "assignment_part": null,
+          "focus": "course"
+        }
+      },
+      "basis": "course_info.txt: credits; biến thể có từ bổ sung",
+      "failure_analysis": null
+    },
+    {
+      "id": "A11",
+      "turns": [
+        "Bao nhiêu tín chỉ cho môn NLP?"
+      ],
+      "passed": true,
+      "checks": {
+        "intent": true,
+        "status": true,
+        "values_exact": true,
+        "sources_present": true,
+        "values_in_answer": true
+      },
+      "actual": {
+        "input": "Bao nhiêu tín chỉ cho môn NLP?",
+        "tree": "(S (COURSE_ATTRIBUTE (CREDIT_CUE bao nhiêu tín chỉ) cho (COURSE môn nlp)))",
+        "logical_form": "WH ?value: COURSE_PROPERTY(CO3085, credits, ?value)",
+        "semantic_composition": [],
+        "resolved_logical_form": "WH ?value: COURSE_PROPERTY(CO3085, credits, ?value)",
+        "intent_entity": {
+          "intent": "GET_COURSE_INFO",
+          "entities": {
+            "course": [
+              "CO3085"
+            ]
+          }
+        },
+        "query_form": "RETRIEVE ?value WHERE COURSE_PROPERTY(CO3085, credits, ?value)",
+        "retrieval": {
+          "status": "FOUND",
+          "values": [
+            "3"
+          ],
+          "sources": [
+            "course_info:CO3085"
+          ]
+        },
+        "answer": "Kết quả: 3. Nguồn: course_info:CO3085",
+        "context": {
+          "chapter": null,
+          "assignment_part": null,
+          "focus": "course"
+        }
+      },
+      "basis": "course_info.txt: credits; biến thể đảo vị trí cụm hỏi",
+      "failure_analysis": null
+    },
+    {
+      "id": "A12",
+      "turns": [
+        "Mọi chương nói về PCFG đều học tuần 3 không?"
+      ],
+      "passed": true,
+      "checks": {
+        "intent": true,
+        "status": true,
+        "values_exact": true,
+        "source:topics:CH03": true,
+        "source:topics:CH06": true,
+        "no_unsupported_values": true
+      },
+      "actual": {
+        "input": "Mọi chương nói về PCFG đều học tuần 3 không?",
+        "tree": "(S (EVERY_CHAPTER_WEEK mọi chương nói về (TOPIC pcfg) đều học tuần (NUMBER 3) không))",
+        "logical_form": "EVERY ?chapter: (CHAPTER(?chapter) AND DISCUSSES(?chapter, PCFG)); TAUGHT_IN(?chapter, WEEK_03)",
+        "semantic_composition": [
+          {
+            "constituent": "TOPIC",
+            "meaning": "PCFG"
+          }
+        ],
+        "resolved_logical_form": "EVERY ?chapter: (CHAPTER(?chapter) AND DISCUSSES(?chapter, PCFG)); TAUGHT_IN(?chapter, WEEK_03)",
+        "intent_entity": {
+          "intent": "GET_SCHEDULE",
+          "entities": {
+            "topic": [
+              "PCFG"
+            ]
+          }
+        },
+        "query_form": "CHECK_ALL ?chapter RESTRICT (CHAPTER(?chapter) AND HAS_TOPIC(?chapter, PCFG)) BODY SCHEDULED_IN(?chapter, WEEK_03)",
+        "retrieval": {
+          "status": "UNKNOWN",
+          "values": [],
+          "sources": [
+            "schedule:WEEK_03",
+            "topics:CH03",
+            "topics:CH06"
+          ]
+        },
+        "answer": "Chưa đủ dữ liệu để kết luận có hay không.",
+        "context": {
+          "chapter": null,
+          "assignment_part": null,
+          "focus": null
+        }
+      },
+      "basis": "Có nhiều chương chứa PCFG; dữ liệu thiếu không tự chứng minh phủ định.",
+      "failure_analysis": null
+    }
+  ]
+}

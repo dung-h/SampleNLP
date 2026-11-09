@@ -1,0 +1,40 @@
+(S (COURSE_ATTRIBUTE (COURSE môn nlp) có (CREDIT_CUE bao nhiêu tín chỉ)))
+
+(S (WEEK_CONTENT tuần (NUMBER 3) học gì))
+
+(S
+  (CHAPTER_BY_TOPIC (CHAPTER_WH chương nào) (TOPIC_VERB nói về) (TOPIC_EXPR (TOPIC cfg))))
+
+(S
+  (CHAPTER_BY_TOPIC
+    (CHAPTER_WH chương nào)
+    (TOPIC_VERB nói về)
+    (TOPIC_EXPR (TOPIC cfg) (CONJUNCTION và) (TOPIC pcfg))))
+
+(S (CHAPTER_BOOLEAN (CHAPTER_REF chương (NUMBER 3)) có (TOPIC cfg) không))
+
+(S (EACH_CHAPTER_WEEK mỗi chương nói về (TOPIC cfg) học tuần nào))
+
+(S (EVERY_CHAPTER_WEEK mọi chương nói về (TOPIC cfg) đều học tuần (NUMBER 3) không))
+
+(S (THE_CHAPTER_WEEK chương duy nhất nói về (TOPIC cfg) học tuần nào))
+
+(S (THE_CHAPTER_WEEK chương duy nhất nói về (TOPIC pcfg) học tuần nào))
+
+(S (WEEK_OF_TOPIC (TOPIC_EXPR (TOPIC cfg)) học tuần nào))
+
+(S (ASSIGNMENT_REQUIREMENTS (ASSIGNMENT bài tập lớn) có những yêu cầu gì))
+
+(S (DEADLINE deadline của (ASSIGNMENT bài tập lớn) là khi nào))
+
+(S (RESOURCE_TOPIC tài liệu tham khảo về (RESOURCE_SUBJECT statistical nlp) là gì))
+
+(S (RESOURCE_TOPIC tài liệu nào nói về (RESOURCE_SUBJECT (TOPIC cfg))))
+
+(S (RESOURCE_CHAPTER tài liệu của (CHAPTER_REF chương (NUMBER 3)) là gì))
+
+(S (LO_RELATED (LO l.o.4.2) liên quan đến nội dung nào))
+
+(S (REGULATION quy định về (RULE_SUBJECT sử dụng ai) là gì))
+
+()

@@ -1,0 +1,18 @@
+{"input": "Môn NLP có bao nhiêu tín chỉ?", "query_form": "RETRIEVE ?value WHERE COURSE_PROPERTY(CO3085, credits, ?value)", "error": null}
+{"input": "Tuần 3 học gì?", "query_form": "RETRIEVE ?content WHERE WEEK_TOPIC(WEEK_03, ?content)", "error": null}
+{"input": "Chương nào nói về CFG?", "query_form": "RETRIEVE ?chapter WHERE (CHAPTER(?chapter) AND HAS_TOPIC(?chapter, CFG))", "error": null}
+{"input": "Chương nào nói về CFG và PCFG?", "query_form": "RETRIEVE ?chapter WHERE (CHAPTER(?chapter) AND (HAS_TOPIC(?chapter, CFG) AND HAS_TOPIC(?chapter, PCFG)))", "error": null}
+{"input": "Chương 3 có CFG không?", "query_form": "TEST WHERE HAS_TOPIC(CH03, CFG)", "error": null}
+{"input": "Mỗi chương nói về CFG học tuần nào?", "query_form": "ITERATE ?chapter ?week RESTRICT (CHAPTER(?chapter) AND HAS_TOPIC(?chapter, CFG)) BODY SCHEDULED_IN(?chapter, ?week)", "error": null}
+{"input": "Mọi chương nói về CFG đều học tuần 3 không?", "query_form": "CHECK_ALL ?chapter RESTRICT (CHAPTER(?chapter) AND HAS_TOPIC(?chapter, CFG)) BODY SCHEDULED_IN(?chapter, WEEK_03)", "error": null}
+{"input": "Chương duy nhất nói về CFG học tuần nào?", "query_form": "FIND_THE ?chapter ?week RESTRICT (CHAPTER(?chapter) AND HAS_TOPIC(?chapter, CFG)) BODY SCHEDULED_IN(?chapter, ?week)", "error": null}
+{"input": "Chương duy nhất nói về PCFG học tuần nào?", "query_form": "FIND_THE ?chapter ?week RESTRICT (CHAPTER(?chapter) AND HAS_TOPIC(?chapter, PCFG)) BODY SCHEDULED_IN(?chapter, ?week)", "error": null}
+{"input": "CFG học tuần nào?", "query_form": "RETRIEVE ?week WHERE (HAS_TOPIC(?chapter, CFG) AND SCHEDULED_IN(?chapter, ?week))", "error": null}
+{"input": "Bài tập lớn có những yêu cầu gì?", "query_form": "RETRIEVE ?requirement WHERE ASSIGNMENT_REQUIREMENT(BTL01, ?requirement)", "error": null}
+{"input": "Deadline của bài tập lớn là khi nào?", "query_form": "RETRIEVE ?date WHERE ASSIGNMENT_DEADLINE(BTL01, ?date)", "error": null}
+{"input": "Tài liệu tham khảo về statistical NLP là gì?", "query_form": "RETRIEVE ?title WHERE (RESOURCE_TOPIC(?resource, STATISTICAL_NLP) AND RESOURCE_TITLE(?resource, ?title))", "error": null}
+{"input": "Tài liệu nào nói về CFG?", "query_form": "RETRIEVE ?title WHERE (RESOURCE_TOPIC(?resource, CFG) AND RESOURCE_TITLE(?resource, ?title))", "error": null}
+{"input": "Tài liệu của chương 3 là gì?", "query_form": "RETRIEVE ?title WHERE (HAS_TOPIC(CH03, ?topic) AND RESOURCE_TOPIC(?resource, ?topic) AND RESOURCE_TITLE(?resource, ?title))", "error": null}
+{"input": "L.O.4.2 liên quan đến nội dung nào?", "query_form": "RETRIEVE ?chapter WHERE (LO_DESCRIPTION(LO4.2, ?description) AND LO_CHAPTER(LO4.2, ?chapter) AND CHAPTER(?chapter))", "error": null}
+{"input": "Quy định về sử dụng AI là gì?", "query_form": "RETRIEVE ?rule WHERE RULE_TEXT(AI_USAGE, ?rule)", "error": null}
+{"input": "Hôm nay ở TP.HCM có mưa không?", "query_form": null, "error": "Câu hỏi có từ ngoài phạm vi văn phạm."}

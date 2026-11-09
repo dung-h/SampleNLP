@@ -1,0 +1,18 @@
+{"input": "Môn NLP có bao nhiêu tín chỉ?", "intent_entity": {"intent": "GET_COURSE_INFO", "entities": {"course": ["CO3085"]}}, "error": null}
+{"input": "Tuần 3 học gì?", "intent_entity": {"intent": "GET_SCHEDULE", "entities": {"week": ["WEEK_03"]}}, "error": null}
+{"input": "Chương nào nói về CFG?", "intent_entity": {"intent": "GET_TOPIC", "entities": {"topic": ["CFG"]}}, "error": null}
+{"input": "Chương nào nói về CFG và PCFG?", "intent_entity": {"intent": "GET_TOPIC", "entities": {"topic": ["CFG", "PCFG"]}}, "error": null}
+{"input": "Chương 3 có CFG không?", "intent_entity": {"intent": "GET_TOPIC", "entities": {"chapter": ["CH03"], "topic": ["CFG"]}}, "error": null}
+{"input": "Mỗi chương nói về CFG học tuần nào?", "intent_entity": {"intent": "GET_SCHEDULE", "entities": {"topic": ["CFG"]}}, "error": null}
+{"input": "Mọi chương nói về CFG đều học tuần 3 không?", "intent_entity": {"intent": "GET_SCHEDULE", "entities": {"topic": ["CFG"]}}, "error": null}
+{"input": "Chương duy nhất nói về CFG học tuần nào?", "intent_entity": {"intent": "GET_SCHEDULE", "entities": {"topic": ["CFG"]}}, "error": null}
+{"input": "Chương duy nhất nói về PCFG học tuần nào?", "intent_entity": {"intent": "GET_SCHEDULE", "entities": {"topic": ["PCFG"]}}, "error": null}
+{"input": "CFG học tuần nào?", "intent_entity": {"intent": "GET_SCHEDULE", "entities": {"topic": ["CFG"]}}, "error": null}
+{"input": "Bài tập lớn có những yêu cầu gì?", "intent_entity": {"intent": "GET_ASSIGNMENT", "entities": {"assignment": ["BTL01"]}}, "error": null}
+{"input": "Deadline của bài tập lớn là khi nào?", "intent_entity": {"intent": "GET_DEADLINE", "entities": {"assignment": ["BTL01"]}}, "error": null}
+{"input": "Tài liệu tham khảo về statistical NLP là gì?", "intent_entity": {"intent": "GET_RESOURCE", "entities": {"topic": ["STATISTICAL_NLP"]}}, "error": null}
+{"input": "Tài liệu nào nói về CFG?", "intent_entity": {"intent": "GET_RESOURCE", "entities": {"topic": ["CFG"]}}, "error": null}
+{"input": "Tài liệu của chương 3 là gì?", "intent_entity": {"intent": "GET_RESOURCE", "entities": {"chapter": ["CH03"]}}, "error": null}
+{"input": "L.O.4.2 liên quan đến nội dung nào?", "intent_entity": {"intent": "GET_LO", "entities": {"learning_outcome": ["LO4.2"]}}, "error": null}
+{"input": "Quy định về sử dụng AI là gì?", "intent_entity": {"intent": "GET_RULE", "entities": {"regulation": ["AI_USAGE"]}}, "error": null}
+{"input": "Hôm nay ở TP.HCM có mưa không?", "intent_entity": {"intent": "UNKNOWN", "entities": {}}, "error": "Câu hỏi có từ ngoài phạm vi văn phạm."}

@@ -1,0 +1,14 @@
+[
+  {"id":"A01","turns":["Môn NLP có mấy phần?"],"expected":{"intent":"GET_COURSE_INFO","status":"FOUND","values_exact":["3"],"answer_contains":["3 phần"]},"basis":"course_info.txt: main_parts gồm ba phần"},
+  {"id":"A02","turns":["CFG được học ở đâu?","Chương này nói về gì?"],"expected":{"intent":"GET_TOPIC","status":"FOUND","entities":{"chapter":["CH03"]},"sources_include":["topics:CH03"]},"basis":"topics.txt: CFG thuộc CH03; lượt tiếp theo tham chiếu chương"},
+  {"id":"A03","turns":["Bài tập lớn có những yêu cầu gì?"],"expected":{"intent":"GET_ASSIGNMENT","status":"FOUND","values_include":["xây dựng parser"],"values_exclude":["lưu discourse entities đơn giản"]},"basis":"assignments.txt: PART I requirements; PART III optional_or_extension"},
+  {"id":"A04","turns":["Tôi cần hoàn thành những bài tập nào?"],"expected":{"intent":"GET_ASSIGNMENT","status":"NOT_FOUND","values_exact":[]},"basis":"Chưa có danh mục đầy đủ tất cả bài tập cần hoàn thành"},
+  {"id":"A05","turns":["Deadline bài tập lớn khi nào?"],"expected":{"intent":"GET_DEADLINE","status":"NOT_FOUND","values_exact":[]},"basis":"Không có ngày nộp BTL cụ thể trong dữ liệu mẫu"},
+  {"id":"A06","turns":["Môn học có bao nhiêu tín chỉ?"],"expected":{"intent":"GET_COURSE_INFO","status":"FOUND","values_exact":["3"]},"basis":"course_info.txt: credits"},
+  {"id":"A07","turns":["Học phần có bao nhiêu tín chỉ?"],"expected":{"intent":"GET_COURSE_INFO","status":"FOUND","values_exact":["3"]},"basis":"course_info.txt: credits; cách diễn đạt khác"},
+  {"id":"A08","turns":["Chương nào nói về PCFG?","Chương này nói về gì?"],"expected":{"intent":"UNKNOWN","status":"NO_RETRIEVAL"},"basis":"PCFG có nhiều chương; không tự chọn tham chiếu"},
+  {"id":"A09","turns":["Paris nằm ở đâu?"],"expected":{"intent":"UNKNOWN","status":"NO_RETRIEVAL"},"basis":"Câu hỏi ngoài miền môn học"},
+  {"id":"A10","turns":["Môn NLP có tổng cộng bao nhiêu tín chỉ?"],"expected":{"intent":"GET_COURSE_INFO","status":"FOUND","values_exact":["3"]},"basis":"course_info.txt: credits; biến thể có từ bổ sung"},
+  {"id":"A11","turns":["Bao nhiêu tín chỉ cho môn NLP?"],"expected":{"intent":"GET_COURSE_INFO","status":"FOUND","values_exact":["3"]},"basis":"course_info.txt: credits; biến thể đảo vị trí cụm hỏi"},
+  {"id":"A12","turns":["Mọi chương nói về PCFG đều học tuần 3 không?"],"expected":{"intent":"GET_SCHEDULE","status":"UNKNOWN","values_exact":[],"sources_include":["topics:CH03","topics:CH06"]},"basis":"Có nhiều chương chứa PCFG; dữ liệu thiếu không tự chứng minh phủ định."}
+]

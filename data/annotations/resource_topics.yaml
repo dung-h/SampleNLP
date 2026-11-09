@@ -1,0 +1,17 @@
+version: 1
+resource_topics:
+  RES02:
+    topics:
+      - STATISTICAL_NLP
+    basis:
+      field: usage
+      text: "NLP foundations and statistical methods"
+    annotation_type: TEAM_DERIVED
+
+  RES04:
+    topics:
+      - STATISTICAL_NLP
+    basis:
+      field: usage
+      text: "statistical NLP"
+    annotation_type: TEAM_DERIVED

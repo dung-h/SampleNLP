@@ -1,0 +1,128 @@
+{
+  "total": 15,
+  "recognized": 15,
+  "unrecognized": 0,
+  "found": 14,
+  "cases": [
+    {
+      "id": "Q1",
+      "question": "Môn NLP có bao nhiêu tín chỉ?",
+      "recognized": true,
+      "intent": "GET_COURSE_INFO",
+      "retrieval_status": "FOUND",
+      "error": null
+    },
+    {
+      "id": "Q2",
+      "question": "NLP có những phần chính nào?",
+      "recognized": true,
+      "intent": "GET_COURSE_INFO",
+      "retrieval_status": "FOUND",
+      "error": null
+    },
+    {
+      "id": "Q3",
+      "question": "Chương nào học về CFG?",
+      "recognized": true,
+      "intent": "GET_TOPIC",
+      "retrieval_status": "FOUND",
+      "error": null
+    },
+    {
+      "id": "Q4",
+      "question": "Chương nào học về PCFG?",
+      "recognized": true,
+      "intent": "GET_TOPIC",
+      "retrieval_status": "FOUND",
+      "error": null
+    },
+    {
+      "id": "Q5",
+      "question": "Chương nào học về Features và Augmented Grammar?",
+      "recognized": true,
+      "intent": "GET_TOPIC",
+      "retrieval_status": "FOUND",
+      "error": null
+    },
+    {
+      "id": "Q6",
+      "question": "Chương nào học về semantic grammar?",
+      "recognized": true,
+      "intent": "GET_TOPIC",
+      "retrieval_status": "FOUND",
+      "error": null
+    },
+    {
+      "id": "Q7",
+      "question": "Chương nào học về knowledge representation?",
+      "recognized": true,
+      "intent": "GET_TOPIC",
+      "retrieval_status": "FOUND",
+      "error": null
+    },
+    {
+      "id": "Q8",
+      "question": "Chương nào học về local discourse context?",
+      "recognized": true,
+      "intent": "GET_TOPIC",
+      "retrieval_status": "FOUND",
+      "error": null
+    },
+    {
+      "id": "Q9",
+      "question": "L.O.4.2 liên quan đến nội dung gì?",
+      "recognized": true,
+      "intent": "GET_LO",
+      "retrieval_status": "FOUND",
+      "error": null
+    },
+    {
+      "id": "Q10",
+      "question": "L.O.2.5 liên quan đến nội dung gì?",
+      "recognized": true,
+      "intent": "GET_LO",
+      "retrieval_status": "FOUND",
+      "error": null
+    },
+    {
+      "id": "Q11",
+      "question": "L.O.3.3 liên quan đến nội dung gì?",
+      "recognized": true,
+      "intent": "GET_LO",
+      "retrieval_status": "FOUND",
+      "error": null
+    },
+    {
+      "id": "Q12",
+      "question": "Bài tập lớn có thể sử dụng LLM hoặc RAG không?",
+      "recognized": true,
+      "intent": "GET_RULE",
+      "retrieval_status": "UNKNOWN",
+      "error": null
+    },
+    {
+      "id": "Q13",
+      "question": "Nếu hệ thống không tìm thấy câu trả lời thì phải làm gì?",
+      "recognized": true,
+      "intent": "GET_RULE",
+      "retrieval_status": "FOUND",
+      "error": null
+    },
+    {
+      "id": "Q14",
+      "question": "Midterm kéo dài bao lâu?",
+      "recognized": true,
+      "intent": "GET_COURSE_INFO",
+      "retrieval_status": "FOUND",
+      "error": null
+    },
+    {
+      "id": "Q15",
+      "question": "Final kéo dài bao lâu?",
+      "recognized": true,
+      "intent": "GET_COURSE_INFO",
+      "retrieval_status": "FOUND",
+      "error": null
+    }
+  ]
+}

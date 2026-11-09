@@ -1,0 +1,213 @@
+[
+  {
+    "input": "Tuần 3 học gì?",
+    "tree": "(S (WEEK_CONTENT tuần (NUMBER 3) học gì))",
+    "logical_form": "WH ?content: WEEK_TOPIC(WEEK_03, ?content)",
+    "semantic_composition": [],
+    "resolved_logical_form": "WH ?content: WEEK_TOPIC(WEEK_03, ?content)",
+    "intent_entity": {
+      "intent": "GET_SCHEDULE",
+      "entities": {
+        "week": [
+          "WEEK_03"
+        ]
+      }
+    },
+    "query_form": "RETRIEVE ?content WHERE WEEK_TOPIC(WEEK_03, ?content)",
+    "retrieval": {
+      "status": "FOUND",
+      "values": [
+        "Stanford dependencies",
+        "bottom-up chart parsing",
+        "context-free grammar",
+        "dependency grammar",
+        "grammar and sentence structure",
+        "probabilistic context-free grammar",
+        "top-down chart parsing",
+        "top-down parsing"
+      ],
+      "sources": [
+        "schedule:WEEK_03"
+      ]
+    },
+    "answer": "Kết quả: Stanford dependencies; bottom-up chart parsing; context-free grammar; dependency grammar; grammar and sentence structure; probabilistic context-free grammar; top-down chart parsing; top-down parsing. Nguồn: schedule:WEEK_03",
+    "context": {
+      "chapter": "CH03",
+      "assignment_part": null,
+      "focus": "week"
+    }
+  },
+  {
+    "input": "Chương này nói về gì?",
+    "tree": "(S (CHAPTER_TOPICS (CHAPTER_REF chương này) nói về gì))",
+    "logical_form": "WH ?content: CHAPTER_SUMMARY(REF(chapter), ?content)",
+    "semantic_composition": [],
+    "resolved_logical_form": "WH ?content: CHAPTER_SUMMARY(CH03, ?content)",
+    "intent_entity": {
+      "intent": "GET_TOPIC",
+      "entities": {
+        "chapter": [
+          "CH03"
+        ]
+      }
+    },
+    "query_form": "RETRIEVE ?content WHERE CHAPTER_SUMMARY(CH03, ?content)",
+    "retrieval": {
+      "status": "FOUND",
+      "values": [
+        "The chapter introduces context-free grammar, sentence structure and parsing methods. It also introduces probabilistic CFG and dependency grammar."
+      ],
+      "sources": [
+        "topics:CH03"
+      ]
+    },
+    "answer": "Kết quả: The chapter introduces context-free grammar, sentence structure and parsing methods. It also introduces probabilistic CFG and dependency grammar.. Nguồn: topics:CH03",
+    "context": {
+      "chapter": "CH03",
+      "assignment_part": null,
+      "focus": "chapter"
+    }
+  }
+]
+
+[
+  {
+    "input": "Bài tập lớn có phần parser không?",
+    "tree": "(S (ASSIGNMENT_COMPONENT (ASSIGNMENT bài tập lớn) có phần (COMPONENT parser) không))",
+    "logical_form": "YES_NO: HAS_COMPONENT(BTL01, PARSING)",
+    "semantic_composition": [],
+    "resolved_logical_form": "YES_NO: HAS_COMPONENT(BTL01, PARSING)",
+    "intent_entity": {
+      "intent": "GET_ASSIGNMENT",
+      "entities": {
+        "assignment": [
+          "BTL01"
+        ],
+        "topic": [
+          "PARSING"
+        ]
+      }
+    },
+    "query_form": "TEST WHERE HAS_COMPONENT(BTL01, PARSING)",
+    "retrieval": {
+      "status": "FOUND",
+      "values": [
+        true
+      ],
+      "sources": [
+        "assignments:BTL_PART_1"
+      ]
+    },
+    "answer": "Có. Nguồn: assignments:BTL_PART_1",
+    "context": {
+      "chapter": null,
+      "assignment_part": "BTL_PART_1",
+      "focus": "assignment_part"
+    }
+  },
+  {
+    "input": "Phần này cần xuất file gì?",
+    "tree": "(S (ASSIGNMENT_OUTPUTS (PART_REF phần này) cần xuất file gì))",
+    "logical_form": "WH ?output: PART_OUTPUT(REF(assignment_part), ?output)",
+    "semantic_composition": [],
+    "resolved_logical_form": "WH ?output: PART_OUTPUT(BTL_PART_1, ?output)",
+    "intent_entity": {
+      "intent": "GET_ASSIGNMENT",
+      "entities": {
+        "assignment_part": [
+          "BTL_PART_1"
+        ]
+      }
+    },
+    "query_form": "RETRIEVE ?output WHERE PART_OUTPUT(BTL_PART_1, ?output)",
+    "retrieval": {
+      "status": "FOUND",
+      "values": [
+        "output/grammar.txt",
+        "output/parse-results.txt",
+        "output/samples.txt"
+      ],
+      "sources": [
+        "assignments:BTL_PART_1"
+      ]
+    },
+    "answer": "Kết quả: output/grammar.txt; output/parse-results.txt; output/samples.txt. Nguồn: assignments:BTL_PART_1",
+    "context": {
+      "chapter": null,
+      "assignment_part": "BTL_PART_1",
+      "focus": "assignment_part"
+    }
+  }
+]
+
+[
+  {
+    "input": "Chương 11 có hỏi đáp không?",
+    "tree": "(S (CHAPTER_BOOLEAN (CHAPTER_REF chương (NUMBER 11)) có (TOPIC hỏi đáp) không))",
+    "logical_form": "YES_NO: DISCUSSES(CH11, QUESTION ANSWERING)",
+    "semantic_composition": [
+      {
+        "constituent": "TOPIC",
+        "meaning": "QUESTION ANSWERING"
+      }
+    ],
+    "resolved_logical_form": "YES_NO: DISCUSSES(CH11, QUESTION ANSWERING)",
+    "intent_entity": {
+      "intent": "GET_TOPIC",
+      "entities": {
+        "chapter": [
+          "CH11"
+        ],
+        "topic": [
+          "QUESTION ANSWERING"
+        ]
+      }
+    },
+    "query_form": "TEST WHERE HAS_TOPIC(CH11, QUESTION ANSWERING)",
+    "retrieval": {
+      "status": "FOUND",
+      "values": [
+        true
+      ],
+      "sources": [
+        "topics:CH11"
+      ]
+    },
+    "answer": "Có. Nguồn: topics:CH11",
+    "context": {
+      "chapter": "CH11",
+      "assignment_part": null,
+      "focus": "chapter"
+    }
+  },
+  {
+    "input": "Còn chương sau?",
+    "tree": "(S (CHAPTER_ELLIPSIS còn chương sau))",
+    "logical_form": "ELLIPSIS: SHIFT_CHAPTER(1)",
+    "semantic_composition": [],
+    "resolved_logical_form": "YES_NO: DISCUSSES(CH12, QUESTION ANSWERING)",
+    "intent_entity": {
+      "intent": "GET_TOPIC",
+      "entities": {
+        "chapter": [
+          "CH12"
+        ],
+        "topic": [
+          "QUESTION ANSWERING"
+        ]
+      }
+    },
+    "query_form": "TEST WHERE HAS_TOPIC(CH12, QUESTION ANSWERING)",
+    "retrieval": {
+      "status": "UNKNOWN",
+      "values": [],
+      "sources": []
+    },
+    "answer": "Chưa đủ dữ liệu để kết luận có hay không.",
+    "context": {
+      "chapter": "CH12",
+      "assignment_part": null,
+      "focus": "chapter"
+    }
+  }
+]

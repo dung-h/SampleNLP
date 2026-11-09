@@ -1,0 +1,500 @@
+chương nào nói về cfg?
+chương 3 có cfg không?
+tuần 3 học gì?
+chương 3 nói về gì?
+chương 3 và chương 3 có chủ đề nào chung?
+chương 3 học vào tuần nào?
+cfg học tuần nào?
+nlp có bao nhiêu tín chỉ?
+nlp gồm những phần nào?
+midterm bao nhiêu phút?
+ai dạy nlp?
+l.o.2.5 là gì?
+l.o.2.5 liên quan đến nội dung nào?
+bài tập lớn là gì?
+bài tập lớn có những yêu cầu gì?
+tôi cần hoàn thành những bài tập nào?
+phần i của bài tập lớn là gì?
+bài tập lớn nhóm mấy người?
+bài tập lớn có phần parser không?
+phần i cần xuất file gì?
+deadline bài tập lớn khi nào?
+tài liệu về cfg là gì?
+tài liệu của chương 3 là gì?
+quy định về sử dụng ai là gì?
+có được dùng llm/rag không?
+nếu hệ thống không tìm thấy câu trả lời thì phải làm gì?
+còn chương sau?
+mỗi chương nói về cfg học tuần nào?
+mọi chương nói về cfg đều học tuần 3 không?
+chương duy nhất nói về cfg học tuần nào?
+chương nào nói về pcfg?
+chương 3 có pcfg không?
+tuần 3 học những gì?
+chương này nói về gì?
+chương 3 và chương này có chủ đề nào chung?
+chương này học vào tuần nào?
+pcfg học tuần nào?
+nlp có mấy tín chỉ?
+co3085 gồm những phần nào?
+final bao nhiêu phút?
+ai dạy co3085?
+l.o.2.5 học về gì?
+btl là gì?
+btl có những yêu cầu gì?
+phần i của btl là gì?
+btl nhóm mấy người?
+bài tập lớn có phần hỏi đáp không?
+phần 3 cần xuất file gì?
+deadline btl khi nào?
+tài liệu về pcfg là gì?
+tài liệu của chương này là gì?
+quy định về ai là gì?
+được dùng llm/rag không?
+còn chương trước?
+mỗi chương nói về pcfg học tuần nào?
+mọi chương nói về pcfg đều học tuần 3 không?
+chương duy nhất nói về pcfg học tuần nào?
+chương nào nói về parsing?
+chương 3 có parsing không?
+tuần 3 học những nội dung gì?
+nó nói về gì?
+chương 3 và nó có chủ đề nào chung?
+nó học vào tuần nào?
+parsing học tuần nào?
+nlp có bao nhiêu ects?
+môn nlp gồm những phần nào?
+midterm kéo dài bao lâu?
+ai dạy môn nlp?
+l.o.2.5 liên quan đến nội dung gì?
+mục tiêu bài tập lớn là gì?
+phần 3 của bài tập lớn là gì?
+bài tập lớn bao nhiêu người?
+bài tập lớn có phần question answering không?
+phần này cần xuất file gì?
+deadline của bài tập lớn là khi nào?
+tài liệu về parsing là gì?
+tài liệu của nó là gì?
+quy định về source code là gì?
+có được dùng thư viện ngoài không?
+mỗi chương nói về parsing học tuần nào?
+mọi chương nói về parsing đều học tuần 3 không?
+chương duy nhất nói về parsing học tuần nào?
+chương nào nói về reference?
+chương 3 có reference không?
+tuần 3 học nội dung gì?
+chương 3 học gì?
+chương này và chương 3 có chủ đề nào chung?
+chương 3 và chương 3 học vào tuần nào?
+reference học tuần nào?
+nlp có mấy ects?
+môn học gồm những phần nào?
+final kéo dài bao lâu?
+ai dạy môn học?
+mục tiêu btl là gì?
+phần 3 của btl là gì?
+btl bao nhiêu người?
+btl có phần parser không?
+phần i xuất file gì?
+deadline của btl là khi nào?
+tài liệu về reference là gì?
+tài liệu cho chương 3 là gì?
+quy định về llm/rag là gì?
+có được chia sẻ bài làm giữa các nhóm không?
+mỗi chương nói về reference học tuần nào?
+mọi chương nói về reference đều học tuần 3 không?
+chương duy nhất nói về reference học tuần nào?
+chương nào nói về feature?
+chương 3 có feature không?
+chương này học gì?
+chương này và chương này có chủ đề nào chung?
+chương 3 và chương này học vào tuần nào?
+feature học tuần nào?
+co3085 có bao nhiêu tín chỉ?
+học phần gồm những phần nào?
+ai dạy học phần?
+bài tập lớn yêu cầu xây dựng những gì?
+phần này của bài tập lớn là gì?
+btl có phần hỏi đáp không?
+phần 3 xuất file gì?
+hạn nộp bài tập lớn khi nào?
+tài liệu về feature là gì?
+tài liệu cho chương này là gì?
+quy định về thư viện ngoài là gì?
+bài tập lớn có được sử dụng công cụ ai không?
+mỗi chương nói về feature học tuần nào?
+mọi chương nói về feature đều học tuần 3 không?
+chương duy nhất nói về feature học tuần nào?
+chương nào nói về features?
+chương 3 có features không?
+nó học gì?
+chương này và nó có chủ đề nào chung?
+chương 3 và nó học vào tuần nào?
+features học tuần nào?
+co3085 có mấy tín chỉ?
+môn co3085 gồm những phần nào?
+ai dạy môn co3085?
+btl yêu cầu xây dựng những gì?
+phần này của btl là gì?
+btl có phần question answering không?
+phần này xuất file gì?
+hạn nộp btl khi nào?
+tài liệu về features là gì?
+tài liệu cho nó là gì?
+quy định về việc sử dụng ai là gì?
+btl có được sử dụng công cụ ai không?
+mỗi chương nói về features học tuần nào?
+mọi chương nói về features đều học tuần 3 không?
+chương duy nhất nói về features học tuần nào?
+chương nào nói về augmented grammar?
+chương 3 có augmented grammar không?
+chương 3 có những phương pháp gì?
+nó và chương 3 có chủ đề nào chung?
+chương này và chương 3 học vào tuần nào?
+augmented grammar học tuần nào?
+co3085 có bao nhiêu ects?
+nlp có những phần chính nào?
+giảng viên nlp là ai?
+phần i bài tập lớn là gì?
+bài tập lớn có parser không?
+phần i cần xuất những file nào?
+hạn nộp bài tập lớn ngày nào?
+tài liệu về augmented grammar là gì?
+tài liệu của phần i ở đâu?
+quy định về việc ai là gì?
+bài tập lớn có thể sử dụng llm hoặc rag không?
+mỗi chương nói về augmented grammar học tuần nào?
+mọi chương nói về augmented grammar đều học tuần 3 không?
+chương duy nhất nói về augmented grammar học tuần nào?
+chương nào nói về semantic grammar?
+chương 3 có semantic grammar không?
+chương này có những phương pháp gì?
+nó và chương này có chủ đề nào chung?
+chương này và chương này học vào tuần nào?
+semantic grammar học tuần nào?
+co3085 có mấy ects?
+co3085 có những phần chính nào?
+giảng viên co3085 là ai?
+phần i btl là gì?
+bài tập lớn có hỏi đáp không?
+phần 3 cần xuất những file nào?
+hạn nộp btl ngày nào?
+tài liệu về semantic grammar là gì?
+tài liệu của phần 3 ở đâu?
+quy định về việc source code là gì?
+btl có thể sử dụng llm hoặc rag không?
+mỗi chương nói về semantic grammar học tuần nào?
+mọi chương nói về semantic grammar đều học tuần 3 không?
+chương duy nhất nói về semantic grammar học tuần nào?
+chương nào nói về question answering?
+chương 3 có question answering không?
+nó có những phương pháp gì?
+nó và nó có chủ đề nào chung?
+chương này và nó học vào tuần nào?
+question answering học tuần nào?
+môn nlp có bao nhiêu tín chỉ?
+môn nlp có những phần chính nào?
+giảng viên môn nlp là ai?
+phần 3 bài tập lớn là gì?
+bài tập lớn có question answering không?
+phần này cần xuất những file nào?
+hạn nộp phần i là khi nào?
+tài liệu về question answering là gì?
+tài liệu của phần này ở đâu?
+quy định về việc llm/rag là gì?
+mỗi chương nói về question answering học tuần nào?
+mọi chương nói về question answering đều học tuần 3 không?
+chương duy nhất nói về question answering học tuần nào?
+chương nào nói về hỏi đáp?
+chương 3 có hỏi đáp không?
+chương 3 có những chủ đề nào?
+nó và chương 3 học vào tuần nào?
+hỏi đáp học tuần nào?
+môn nlp có mấy tín chỉ?
+môn học có những phần chính nào?
+giảng viên môn học là ai?
+phần 3 btl là gì?
+btl có parser không?
+hạn nộp phần 3 là khi nào?
+tài liệu về hỏi đáp là gì?
+quy định về việc thư viện ngoài là gì?
+mỗi chương nói về hỏi đáp học tuần nào?
+mọi chương nói về hỏi đáp đều học tuần 3 không?
+chương duy nhất nói về hỏi đáp học tuần nào?
+chương nào nói về selectional restriction?
+chương 3 có selectional restriction không?
+chương này có những chủ đề nào?
+nó và chương này học vào tuần nào?
+selectional restriction học tuần nào?
+môn nlp có bao nhiêu ects?
+học phần có những phần chính nào?
+giảng viên học phần là ai?
+phần này bài tập lớn là gì?
+btl có hỏi đáp không?
+hạn nộp phần này là khi nào?
+tài liệu về selectional restriction là gì?
+quy định sử dụng ai như thế nào?
+mỗi chương nói về selectional restriction học tuần nào?
+mọi chương nói về selectional restriction đều học tuần 3 không?
+chương duy nhất nói về selectional restriction học tuần nào?
+chương nào nói về knowledge representation?
+chương 3 có knowledge representation không?
+nó có những chủ đề nào?
+nó và nó học vào tuần nào?
+knowledge representation học tuần nào?
+môn nlp có mấy ects?
+môn co3085 có những phần chính nào?
+giảng viên môn co3085 là ai?
+phần này btl là gì?
+btl có question answering không?
+tài liệu về knowledge representation là gì?
+quy định ai như thế nào?
+mỗi chương nói về knowledge representation học tuần nào?
+mọi chương nói về knowledge representation đều học tuần 3 không?
+chương duy nhất nói về knowledge representation học tuần nào?
+chương nào nói về local discourse context?
+chương 3 có local discourse context không?
+chương 3 học tuần mấy?
+local discourse context học tuần nào?
+môn học có bao nhiêu tín chỉ?
+nlp có mấy phần?
+giảng viên của nlp là ai?
+phần i của bài tập lớn yêu cầu gì?
+tài liệu về local discourse context là gì?
+quy định source code như thế nào?
+mỗi chương nói về local discourse context học tuần nào?
+mọi chương nói về local discourse context đều học tuần 3 không?
+chương duy nhất nói về local discourse context học tuần nào?
+chương nào nói về cfg và cfg?
+chương này có cfg không?
+chương này học tuần mấy?
+cfg và cfg học tuần nào?
+môn học có mấy tín chỉ?
+co3085 có mấy phần?
+giảng viên của co3085 là ai?
+phần i của btl yêu cầu gì?
+tài liệu về statistical nlp là gì?
+quy định llm/rag như thế nào?
+chương nào nói về cfg và pcfg?
+chương này có pcfg không?
+nó học tuần mấy?
+cfg và pcfg học tuần nào?
+môn học có bao nhiêu ects?
+môn nlp có mấy phần?
+giảng viên của môn nlp là ai?
+phần 3 của bài tập lớn yêu cầu gì?
+tài liệu về python nlp là gì?
+quy định thư viện ngoài như thế nào?
+chương nào nói về cfg và parsing?
+chương này có parsing không?
+chương 3 và chương 3 học tuần mấy?
+cfg và parsing học tuần nào?
+môn học có mấy ects?
+môn học có mấy phần?
+giảng viên của môn học là ai?
+phần 3 của btl yêu cầu gì?
+tài liệu tham khảo về cfg là gì?
+chương nào nói về cfg và reference?
+chương này có reference không?
+chương 3 và chương này học tuần mấy?
+cfg và reference học tuần nào?
+học phần có bao nhiêu tín chỉ?
+học phần có mấy phần?
+giảng viên của học phần là ai?
+phần này của bài tập lớn yêu cầu gì?
+tài liệu tham khảo về pcfg là gì?
+chương nào nói về cfg và feature?
+chương này có feature không?
+chương 3 và nó học tuần mấy?
+cfg và feature học tuần nào?
+học phần có mấy tín chỉ?
+môn co3085 có mấy phần?
+giảng viên của môn co3085 là ai?
+phần này của btl yêu cầu gì?
+tài liệu tham khảo về parsing là gì?
+chương nào nói về cfg và features?
+chương này có features không?
+chương này và chương 3 học tuần mấy?
+cfg và features học tuần nào?
+học phần có bao nhiêu ects?
+giảng viên là ai?
+tài liệu tham khảo về reference là gì?
+chương nào nói về cfg và augmented grammar?
+chương này có augmented grammar không?
+chương này và chương này học tuần mấy?
+cfg và augmented grammar học tuần nào?
+học phần có mấy ects?
+tài liệu tham khảo về feature là gì?
+chương nào nói về cfg và semantic grammar?
+chương này có semantic grammar không?
+chương này và nó học tuần mấy?
+cfg và semantic grammar học tuần nào?
+môn co3085 có bao nhiêu tín chỉ?
+tài liệu tham khảo về features là gì?
+chương nào nói về cfg và question answering?
+chương này có question answering không?
+nó và chương 3 học tuần mấy?
+cfg và question answering học tuần nào?
+môn co3085 có mấy tín chỉ?
+tài liệu tham khảo về augmented grammar là gì?
+chương nào nói về cfg và hỏi đáp?
+chương này có hỏi đáp không?
+nó và chương này học tuần mấy?
+cfg và hỏi đáp học tuần nào?
+môn co3085 có bao nhiêu ects?
+tài liệu tham khảo về semantic grammar là gì?
+chương nào nói về cfg và selectional restriction?
+chương này có selectional restriction không?
+nó và nó học tuần mấy?
+cfg và selectional restriction học tuần nào?
+môn co3085 có mấy ects?
+tài liệu tham khảo về question answering là gì?
+chương nào nói về cfg và knowledge representation?
+chương này có knowledge representation không?
+chương 3 vào tuần nào?
+cfg và knowledge representation học tuần nào?
+nlp có tổng cộng bao nhiêu tín chỉ?
+tài liệu tham khảo về hỏi đáp là gì?
+chương nào nói về cfg và local discourse context?
+chương này có local discourse context không?
+chương này vào tuần nào?
+cfg và local discourse context học tuần nào?
+nlp có tổng cộng mấy tín chỉ?
+tài liệu tham khảo về selectional restriction là gì?
+chương nào nói về cfg hoặc cfg?
+nó có cfg không?
+nó vào tuần nào?
+cfg hoặc cfg học tuần nào?
+nlp có tổng cộng bao nhiêu ects?
+tài liệu tham khảo về knowledge representation là gì?
+chương nào nói về cfg hoặc pcfg?
+nó có pcfg không?
+chương 3 và chương 3 vào tuần nào?
+cfg hoặc pcfg học tuần nào?
+nlp có tổng cộng mấy ects?
+tài liệu tham khảo về local discourse context là gì?
+chương nào nói về cfg hoặc parsing?
+nó có parsing không?
+chương 3 và chương này vào tuần nào?
+cfg hoặc parsing học tuần nào?
+co3085 có tổng cộng bao nhiêu tín chỉ?
+tài liệu tham khảo về statistical nlp là gì?
+chương nào nói về cfg hoặc reference?
+nó có reference không?
+chương 3 và nó vào tuần nào?
+cfg hoặc reference học tuần nào?
+co3085 có tổng cộng mấy tín chỉ?
+tài liệu tham khảo về python nlp là gì?
+chương nào nói về cfg hoặc feature?
+nó có feature không?
+chương này và chương 3 vào tuần nào?
+cfg hoặc feature học tuần nào?
+co3085 có tổng cộng bao nhiêu ects?
+tài liệu nào liên quan đến cfg?
+chương nào nói về cfg hoặc features?
+nó có features không?
+chương này và chương này vào tuần nào?
+cfg hoặc features học tuần nào?
+co3085 có tổng cộng mấy ects?
+tài liệu nào liên quan đến pcfg?
+chương nào nói về cfg hoặc augmented grammar?
+nó có augmented grammar không?
+chương này và nó vào tuần nào?
+cfg hoặc augmented grammar học tuần nào?
+môn nlp có tổng cộng bao nhiêu tín chỉ?
+tài liệu nào liên quan đến parsing?
+chương nào nói về cfg hoặc semantic grammar?
+nó có semantic grammar không?
+nó và chương 3 vào tuần nào?
+cfg hoặc semantic grammar học tuần nào?
+môn nlp có tổng cộng mấy tín chỉ?
+tài liệu nào liên quan đến reference?
+chương nào nói về cfg hoặc question answering?
+nó có question answering không?
+nó và chương này vào tuần nào?
+cfg hoặc question answering học tuần nào?
+môn nlp có tổng cộng bao nhiêu ects?
+tài liệu nào liên quan đến feature?
+chương nào nói về cfg hoặc hỏi đáp?
+nó có hỏi đáp không?
+nó và nó vào tuần nào?
+cfg hoặc hỏi đáp học tuần nào?
+môn nlp có tổng cộng mấy ects?
+tài liệu nào liên quan đến features?
+chương nào nói về cfg hoặc selectional restriction?
+nó có selectional restriction không?
+cfg hoặc selectional restriction học tuần nào?
+môn học có tổng cộng bao nhiêu tín chỉ?
+tài liệu nào liên quan đến augmented grammar?
+chương nào nói về cfg hoặc knowledge representation?
+nó có knowledge representation không?
+cfg hoặc knowledge representation học tuần nào?
+môn học có tổng cộng mấy tín chỉ?
+tài liệu nào liên quan đến semantic grammar?
+chương nào nói về cfg hoặc local discourse context?
+nó có local discourse context không?
+cfg hoặc local discourse context học tuần nào?
+môn học có tổng cộng bao nhiêu ects?
+tài liệu nào liên quan đến question answering?
+chương nào nói về pcfg và cfg?
+chương 3 có liên quan đến cfg không?
+pcfg và cfg học tuần nào?
+môn học có tổng cộng mấy ects?
+tài liệu nào liên quan đến hỏi đáp?
+chương nào nói về pcfg và pcfg?
+chương 3 có liên quan đến pcfg không?
+pcfg và pcfg học tuần nào?
+học phần có tổng cộng bao nhiêu tín chỉ?
+tài liệu nào liên quan đến selectional restriction?
+chương nào nói về pcfg và parsing?
+chương 3 có liên quan đến parsing không?
+pcfg và parsing học tuần nào?
+học phần có tổng cộng mấy tín chỉ?
+tài liệu nào liên quan đến knowledge representation?
+chương nào nói về pcfg và reference?
+chương 3 có liên quan đến reference không?
+pcfg và reference học tuần nào?
+học phần có tổng cộng bao nhiêu ects?
+tài liệu nào liên quan đến local discourse context?
+chương nào nói về pcfg và feature?
+chương 3 có liên quan đến feature không?
+pcfg và feature học tuần nào?
+học phần có tổng cộng mấy ects?
+tài liệu nào liên quan đến statistical nlp?
+chương nào nói về pcfg và features?
+chương 3 có liên quan đến features không?
+pcfg và features học tuần nào?
+môn co3085 có tổng cộng bao nhiêu tín chỉ?
+tài liệu nào liên quan đến python nlp?
+chương nào nói về pcfg và augmented grammar?
+chương 3 có liên quan đến augmented grammar không?
+pcfg và augmented grammar học tuần nào?
+môn co3085 có tổng cộng mấy tín chỉ?
+tài liệu nào nói về cfg?
+chương nào nói về pcfg và semantic grammar?
+chương 3 có liên quan đến semantic grammar không?
+pcfg và semantic grammar học tuần nào?
+môn co3085 có tổng cộng bao nhiêu ects?
+tài liệu nào nói về pcfg?
+chương nào nói về pcfg và question answering?
+chương 3 có liên quan đến question answering không?
+pcfg và question answering học tuần nào?
+môn co3085 có tổng cộng mấy ects?
+tài liệu nào nói về parsing?
+chương nào nói về pcfg và hỏi đáp?
+chương 3 có liên quan đến hỏi đáp không?
+pcfg và hỏi đáp học tuần nào?
+nlp bao nhiêu tín chỉ?
+tài liệu nào nói về reference?
+chương nào nói về pcfg và selectional restriction?
+chương 3 có liên quan đến selectional restriction không?
+pcfg và selectional restriction học tuần nào?
+nlp mấy tín chỉ?
+tài liệu nào nói về feature?
+chương nào nói về pcfg và knowledge representation?
+chương 3 có liên quan đến knowledge representation không?
+pcfg và knowledge representation học tuần nào?
+nlp bao nhiêu ects?
+tài liệu nào nói về features?
+chương nào nói về pcfg và local discourse context?
+chương 3 có liên quan đến local discourse context không?

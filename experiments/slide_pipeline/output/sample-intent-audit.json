@@ -1,0 +1,231 @@
+{
+  "total": 28,
+  "passed": 28,
+  "failed": 0,
+  "cases": [
+    {
+      "id": "Q001",
+      "question": "Môn NLP có bao nhiêu tín chỉ?",
+      "expected_intent": "GET_COURSE_INFO",
+      "actual_intent": "GET_COURSE_INFO",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "Q002",
+      "question": "CO3085 có mấy tín chỉ?",
+      "expected_intent": "GET_COURSE_INFO",
+      "actual_intent": "GET_COURSE_INFO",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "Q003",
+      "question": "Môn học gồm những phần nào?",
+      "expected_intent": "GET_COURSE_INFO",
+      "actual_intent": "GET_COURSE_INFO",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "Q004",
+      "question": "Tuần 3 học gì?",
+      "expected_intent": "GET_SCHEDULE",
+      "actual_intent": "GET_SCHEDULE",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "Q005",
+      "question": "Chương 4 học vào tuần nào?",
+      "expected_intent": "GET_SCHEDULE",
+      "actual_intent": "GET_SCHEDULE",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "Q006",
+      "question": "Chương nào nói về CFG?",
+      "expected_intent": "GET_TOPIC",
+      "actual_intent": "GET_TOPIC",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "Q007",
+      "question": "PCFG được học ở đâu?",
+      "expected_intent": "GET_TOPIC",
+      "actual_intent": "GET_TOPIC",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "Q008",
+      "question": "Chương nào nói về semantic grammar?",
+      "expected_intent": "GET_TOPIC",
+      "actual_intent": "GET_TOPIC",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "Q009",
+      "question": "L.O.2.5 là gì?",
+      "expected_intent": "GET_LO",
+      "actual_intent": "GET_LO",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "Q010",
+      "question": "L.O.4.2 liên quan đến nội dung nào?",
+      "expected_intent": "GET_LO",
+      "actual_intent": "GET_LO",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "Q011",
+      "question": "Bài tập lớn yêu cầu xây dựng những gì?",
+      "expected_intent": "GET_ASSIGNMENT",
+      "actual_intent": "GET_ASSIGNMENT",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "Q012",
+      "question": "Phần I của bài tập lớn là gì?",
+      "expected_intent": "GET_ASSIGNMENT",
+      "actual_intent": "GET_ASSIGNMENT",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "Q013",
+      "question": "Bài tập lớn có phần hỏi đáp không?",
+      "expected_intent": "GET_ASSIGNMENT",
+      "actual_intent": "GET_ASSIGNMENT",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "Q014",
+      "question": "Có được dùng LLM/RAG không?",
+      "expected_intent": "GET_RULE",
+      "actual_intent": "GET_RULE",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "Q015",
+      "question": "Quy định về sử dụng AI là gì?",
+      "expected_intent": "GET_RULE",
+      "actual_intent": "GET_RULE",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "Q016",
+      "question": "Midterm bao nhiêu phút?",
+      "expected_intent": "GET_COURSE_INFO",
+      "actual_intent": "GET_COURSE_INFO",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "Q017",
+      "question": "Final bao nhiêu phút?",
+      "expected_intent": "GET_COURSE_INFO",
+      "actual_intent": "GET_COURSE_INFO",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "Q018",
+      "question": "Tài liệu tham khảo về statistical NLP là gì?",
+      "expected_intent": "GET_RESOURCE",
+      "actual_intent": "GET_RESOURCE",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "Q019",
+      "question": "Tài liệu nào liên quan đến Python NLP?",
+      "expected_intent": "GET_RESOURCE",
+      "actual_intent": "GET_RESOURCE",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "Q020",
+      "question": "Chương 12 nói về gì?",
+      "expected_intent": "GET_TOPIC",
+      "actual_intent": "GET_TOPIC",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "Q021",
+      "question": "Chương nào học về reference?",
+      "expected_intent": "GET_TOPIC",
+      "actual_intent": "GET_TOPIC",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "Q022",
+      "question": "Chương nào học về question answering?",
+      "expected_intent": "GET_TOPIC",
+      "actual_intent": "GET_TOPIC",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "Q023",
+      "question": "Chương nào học về selectional restriction?",
+      "expected_intent": "GET_TOPIC",
+      "actual_intent": "GET_TOPIC",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "Q024",
+      "question": "Chương 10 có những phương pháp gì?",
+      "expected_intent": "GET_TOPIC",
+      "actual_intent": "GET_TOPIC",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "Q025",
+      "question": "Chương 11 có liên quan đến hỏi đáp không?",
+      "expected_intent": "GET_TOPIC",
+      "actual_intent": "GET_TOPIC",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "Q026",
+      "question": "Hôm nay ở TP.HCM có mưa không?",
+      "expected_intent": "UNKNOWN",
+      "actual_intent": "UNKNOWN",
+      "passed": true,
+      "error": "Câu hỏi có từ ngoài phạm vi văn phạm."
+    },
+    {
+      "id": "Q027",
+      "question": "Ai là tổng thống của Pháp?",
+      "expected_intent": "UNKNOWN",
+      "actual_intent": "UNKNOWN",
+      "passed": true,
+      "error": "Câu hỏi không thuộc văn phạm thử nghiệm."
+    },
+    {
+      "id": "Q028",
+      "question": "Hãy giải bài tập xác suất này giúp tôi.",
+      "expected_intent": "UNKNOWN",
+      "actual_intent": "UNKNOWN",
+      "passed": true,
+      "error": "Câu hỏi có từ ngoài phạm vi văn phạm."
+    }
+  ]
+}

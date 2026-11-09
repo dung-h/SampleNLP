@@ -1,0 +1,23 @@
+ĐÁNH GIÁ BẢN THỬ NGHIỆM - CÁC CASE ĐƯỢC DÙNG TRONG PHÁT TRIỂN
+Số case: 46
+Đáp ứng toàn bộ tiêu chí khai báo: 46
+Chưa đáp ứng: 0
+Tỷ lệ đáp ứng tiêu chí: 100.0%
+Mỗi case kiểm tra intent, trạng thái, các giá trị/nguồn khai báo và hiển thị kết quả.
+Đây không phải tập độc lập; không suy rộng thành độ chính xác tổng quát.
+So nhãn intent Q001–Q028 của dữ liệu mẫu: 28/28 (không kiểm tra đáp án).
+Văn phạm nhận diện 15/15 câu FAQ (chỉ nhận diện, không chấm câu trả lời).
+Trong FAQ, 14 câu có retrieval FOUND; các câu khác cần xem kết quả cụ thể.
+
+Các case chưa đáp ứng:
+
+BỘ KHẢO SÁT BỔ SUNG (cùng nhóm phát triển, không phải tập độc lập):
+Số case: 12; đáp ứng tiêu chí: 12; chưa đáp ứng: 0
+Các case chưa đáp ứng:
+
+Câu mẫu chưa nhận diện đúng intent:
+
+Câu FAQ chưa được văn phạm nhận diện:
+
+Câu FAQ không có retrieval FOUND (không tự kết luận là lỗi):
+Q12: Bài tập lớn có thể sử dụng LLM hoặc RAG không? | UNKNOWN

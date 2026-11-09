@@ -1,0 +1,21 @@
+version: 1
+description: >-
+  Chú giải thử nghiệm để nhóm kiểm tra; không phải quan hệ giảng viên chỉ định.
+resource_topics:
+  - id: RES05_CFG
+    resource: RES05
+    topic: CFG
+    evidence:
+      title: Natural Language Processing with Python, Chapter 8, Section 3
+      url: https://www.nltk.org/book_1ed/ch08.html
+      explanation: Chương 8, mục Context Free Grammar trình bày CFG và luật sinh.
+    relation: tài liệu có nội dung liên quan đến chủ đề
+lo_chapters:
+  - id: LO4.2_CH12
+    lo: LO4.2
+    chapter: CH12
+    evidence:
+      lo_source: course_info.txt, detailed_learning_outcomes, LO4.2
+      chapter_source: topics.txt, CH12, keywords và mục 12.1–12.2
+      explanation: Cả hai đề cập ngữ cảnh diễn ngôn cục bộ và tham chiếu.
+    relation: đối chiếu nội dung thử nghiệm, cần nhóm xác nhận, không phải ánh xạ chính thức
